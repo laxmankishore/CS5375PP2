@@ -17,7 +17,7 @@
 
 // ------------------------------------------------------------------ GPUmatmul
 //Implemented threads by using stride 
-
+__global__
 void GPUmatmul(int N, double *x, double *y, double *ans)
 {
 int rx=threadIdx.x;
