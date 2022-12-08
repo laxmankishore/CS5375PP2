@@ -5,11 +5,11 @@ part1cpu:
 part1gpu:
 	nvcc matrixMul_gpu.cu -o matrixMul_gpu.exe
 part2gpu:
-	nvcc matrixMul_gpu_part2.cu -o matrixMul_gpu_V2.exe
+	nvcc matrixMul_gpu_V2.cu -o matrixMul_gpu_V2.exe
 part3gpu:
-	nvcc matrixMul_gpu_part3.cu -o matrixMul_gpu_V3.exe
+	nvcc matrixMul_gpu_V3.cu -o matrixMul_gpu_V3.exe
 part4gpu:
-	nvcc matrixMul_gpu_part4.cu -o matrixMul_gpu_V4.exe
+	nvcc matrixMul_gpu_V4.cu -o matrixMul_gpu_V4.exe
 
 
 
